@@ -52,6 +52,14 @@ public class Customer {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	/**
+	 * 输出基本的信息
+	 * @return
+	 */
+	public String info(){
+		return ('\t'+this.getName()+'\t'+this.getGender()+
+				'\t'+this.getAge()+'\t'+this.getPhone()+'\t'+this.getEmail());
+	}
 	
 	
 	
